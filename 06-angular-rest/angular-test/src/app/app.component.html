@@ -1,0 +1,24 @@
+<ul> <!-- Unordered List-->
+  <li>
+    <a [routerLink]="['/inicio']">
+      Inicio
+    </a>
+  </li>
+  <li>
+    <a [routerLink]="['/login']">
+      Login
+    </a>
+  </li>
+  
+  <li>
+    <a [routerLink]="['/inicio','gestion-usuarios']">Gestion de Usuarios</a>
+  </li>
+  <li>
+    <a [routerLink]="['/inicio','gestion-usuarios',1,'gestion-libros']">Gestion de Libros</a>
+  </li> <!-- List Item-->
+</ul>
+
+
+
+<router-outlet></router-outlet>
+<footer>PIE DE CABALLO</footer>
